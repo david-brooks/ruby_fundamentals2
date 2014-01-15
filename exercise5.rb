@@ -6,6 +6,4 @@ celsius = (farenheit.to_i - 32) * 5/9
 puts "#{celsius} celsius"
 end
 
-temperature
-
-
+temperature()
