@@ -24,3 +24,9 @@ else
 end
 
 puts grocery_list[1]
+
+display_grocery_list(grocery_list.sort)
+
+grocery_list.delete("salmon")
+
+puts grocery_list
