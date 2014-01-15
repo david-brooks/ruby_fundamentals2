@@ -1,16 +1,12 @@
 students = {
 	:cohort1 => 34,
-	:corhort2 => 42,
+	:cohort2 => 42,
 	:cohort3 => 22,
-	:cohort4 => 43
 }
-
-students.each do |x,y|
-	puts "#{x}: #{y}"
+def cohort_students(students)
+students.each {|x,y| puts "#{x}: #{y}" }
 end
 
-students.each do |x,y| puts "#{x}" 
-end
+cohort_students(students)
 
-
-end
+students.push
