@@ -9,4 +9,7 @@ end
 
 cohort_students(students)
 
-students.push
+students[:cohort4] = 43
+
+puts students.keys
+
